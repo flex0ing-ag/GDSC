@@ -1,0 +1,110 @@
+/* Media Query 1170px*/
+/*Navbar */
+@media (max-width: 1370px) {
+
+    .header .navbar-nav .nav-link {
+        padding: 0.2rem 0.4rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        ;
+
+
+    }
+}
+
+@media (max-width: 1170px) {
+
+    /*General CSS*/
+    .section-subtitle {
+        max-width: 60%;
+
+    }
+
+    /*Navbar */
+    .header .navbar-nav .nav-link {
+        padding: 0.2rem 0.4rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-size: 1.0rem;
+        ;
+
+
+    }
+
+    /* Banner section */
+
+}
+
+/* Media Query 991px */
+@media (max-width: 991px) {
+    /*General css */
+
+    .about .banner_section,
+    .noncommunicable .banner_section,
+    .Mental_Health .banner_section,
+    .Road_Safety .banner_section,
+    .Community .banner_section,
+    .feedback .banner_section,
+    .Pollution .banner_section {
+
+        padding-top: 12.5rem;
+        padding-bottom: 3rem;
+
+    }
+
+    /* 01 Navbar css */
+    .header .navbar {
+        background-size: cover;
+        padding: 2rem;
+    }
+
+    .header .navbar-nav {
+        margin-top: 2rem;
+
+    }
+
+    .header .navbar-nav .nav-link {
+        padding: 0.2rem 0.4rem;
+        margin-bottom: 1rem;
+        font-size: 1.0rem;
+        text-transform: capitalize;
+
+
+    }
+
+    .header .header-right span {
+        padding: 0.1rem 0.2rem;
+    }
+
+
+
+}
+
+/* Media Query 767px */
+
+@media (max-width: 767px){
+    /*General CSS*/
+    body, html{
+        font-size: 8px;
+    }
+    .section-subtitle{
+        max-width: 80%;
+    }
+    .banner_section{
+        min-height: 70vh;
+
+    }
+    .banner_section .carousel-item{
+        height: 70vh;
+    }
+
+}
+/* Media Query 590px */
+
+@media (max-width: 590px){
+    /*General CSS*/
+    body, html{
+        font-size: 7px;
+    }
+}
